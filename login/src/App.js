@@ -1,9 +1,12 @@
 import './App.css';
+import { Home } from "./components/home";
 
 function App() {
   return (
-    <h1>Fabiana Lino</h1>
+    <div className='App'>
+      <Home /> 
+    </div>
   );
-}
+};
 
 export default App;
