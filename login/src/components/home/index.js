@@ -1,29 +1,35 @@
 import React from "react";
 import { Container, Form, Logo } from "./styled";
-import { FilledInupt } from "@mui/material/FilledInput";
+import FilledInput from "@mui/material/FilledInput";
+import { Foto } from "./imagem/Foto.jpg";
+
 
 export const Home=()=>{
   return (
         <Container>
             <div className="container-total">
                 <div className="contatiner1">
-                    <div className="imagemprincipal"><h1>teste1</h1></div>
+                    <img className="img-produto" src={ Foto } alt="Produto"></img>
                 </div>
-
                 <div className="container2">
                     <Form>
                         <Logo>
-                            <h3>Login</h3>                  
+                            <h1>Login</h1>                  
                         </Logo>
-                        <FilledInupt>
+                        <FilledInput 
                             id="filled-adorment-weight"
                             className="input"
-                            placeholder="Login"
-                        </FilledInupt>
+                            placeholder="Login"                         
+                        />           
+                        <FilledInput
+                            id="filled-adorment-weight"
+                            className="input" 
+                            type="password"                         
+                            placeholder="Senha"                            
+                        />    
                     </Form>                    
                 </div>    
             </div>                                                       
-        </Container>    
-                       
+        </Container>                       
     );
 };
