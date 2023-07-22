@@ -65,6 +65,7 @@ export const Form= styled.form`
 
     @media (max-width: 999px) {
         height: 60vh;
+        margin:10%;
         background-image: radial-gradient(
             circle at 50% 50%,
             #b5835b 0, 
@@ -76,7 +77,7 @@ export const Form= styled.form`
 
     .input {
         font-family: 'Ysabeau SC', sans-serif;
-        margin-top: 20px;
+        margin-top: 15px;
         width: 60%;
         display: flex;
         justfy-content: center;
@@ -88,12 +89,27 @@ export const Form= styled.form`
         heigth: 20px;
         cursor: pointer;
         background-color: #d48948;
-        font-family: 'Ysabeau SC', sans-serif;
+        font-family: 'Ysabeau SC', sans-serif;        
     };   
     @media (max-width: 999px) {
        .input{
             width: 80%;
-       };        
+            font-family: 'Ysabeau SC', sans-serif;
+            font-size: 20px;     
+       };   
+       .botao-logar{
+           width: 50%;                            
+       }; 
+
+       .botao-btn{
+            width: 100%;
+            height: 80%; 
+            justfy-content: center;
+            background-color: #FF8C00;
+            margin-top: 15px; 
+            font-family: 'Ysabeau SC', sans-serif;
+            font-size: 20px;                        
+       };    
     };
     
 `;
