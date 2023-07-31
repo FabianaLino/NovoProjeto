@@ -2,7 +2,7 @@
 
 ##### Este projeto é a criação de uma pagina de login responsiva, com a utulização da Lib React. Segue abaixo layout da aplicação:
 
-![Layout da aplicação](/public/loginhome.JPG)
+![Layout da aplicação](/login/public/loginhome.JPG)
 ![Layout responsivo](/public/loginresponsivo.JPG)
 
 ---
